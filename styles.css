@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+.logo {
+    max-width: 100px; /* Adjust the width as needed */
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    
+    padding: 0.5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.home-link {
+    background-color: #3498db;  
+}
+
+.about-link {
+    background-color: #2ecc71 ;
+    text-align: right;
+}
+
+section {
+    margin: 20px;
+}
+
+.game {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.game h3 {
+    color: #333;
+}
+
+.game p {
+    color: #666;
+    text-align: center;
+    font-family: , sans-serif;
+text-align: center;
+}
+
+.game a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
